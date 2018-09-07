@@ -1,0 +1,42 @@
+html, body{
+    height: 95%;
+
+}
+
+#home, #products, #team, #stats, #reviews, #contact{
+    height: 90%;
+    display: flex;
+}
+
+#home{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+}
+
+#products{
+    background-color: white;
+    color: black;
+}
+
+#team{
+    background-color: white;
+    color: black;
+}
+
+#stats{
+    background-color: white;
+    color: black;
+}
+#reviews{
+    background-color: white;
+    color: black;
+}
+#contact{
+    background-color: rgba(0,0,0,0.73);
+    color: black;
+}
+#home .container{
+    background-image: url("MyImages/background.jpeg" );
+    opacity: 0.7;
+}
